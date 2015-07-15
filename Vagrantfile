@@ -6,9 +6,8 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.guest = :linux
   config.vm.box_url = "https://atlas.hashicorp.com/ARTACK/boxes/debian-jessie"
-  config.vm.box = "debian-jessie"
+  config.vm.box = "ARTACK/debian-jessie"
   config.vm.network "private_network", ip: "10.2.2.203"
   config.vm.provision :shell, path: "bin/setup.sh"
 
