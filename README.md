@@ -11,7 +11,7 @@ A [Vagrant] setup to use [Mono] with [Debian Jessie 8.1.0 Release x64](https://w
 - [Quickstart](#quickstart)
 - [License](#license)
 
-## Quickstart
+## <a name="quickstart"></a>Quickstart
 
 First clone the repository:
 
@@ -32,7 +32,7 @@ Then the box will be downloaded for you.
 
 If you wish, you can learn more about it alter a [vagrant file](Vagrantfile) and its [configuration options](ConfigOptions).
 
-## Copyright and license
+## <a name="license"></a>Copyright and license
 
 ***
 
